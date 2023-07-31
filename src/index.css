@@ -1,0 +1,195 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+nav{
+  padding: 25px 0;
+  background-color: #051036;
+  z-index: 5;
+  width: 100%;
+}
+.nav_wrapper{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.menu ul{
+  display: flex;
+  column-gap: 45px;
+}
+.menu ul li a{
+  font-size: 18px;
+  color: #fff;
+}
+.menu ul li a:hover{
+  color: #3c59d3;
+}
+/* =====================Banner Starts Here==================== */
+#banner{
+  background: url(assets/bg.png) no-repeat center/cover;
+  padding: 320px 0;
+}
+h1{
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  line-height: 87px;
+  text-align: center;
+}
+.bn_txt h3{
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height:30px;
+  text-align: center;
+}
+
+/* =====================Banner Ends Here==================== */
+/* =====================Offer Starts Here==================== */
+#offer{
+  padding: 60px 0;
+}
+.offer_head{
+  font-family: 'Jost', sans-serif;
+  font-weight:600;
+  color: #051036;
+  font-size: 30px;
+  line-height:43px;
+  text-align: center;
+}
+.offer_h_p{
+  padding-top: 10px;
+  color: #697488;
+  font-family: 'Jost', sans-serif;
+  font-weight:400;
+  font-size: 16px;
+  line-height:30px;
+  text-align: center;
+}
+.offer_wrap{
+  padding: 40px;
+  display: flex;
+  gap: 35px;
+}
+.offer_img{
+  width: 412px;
+  height: 352px;
+}
+.offer_item{
+  position: relative;
+}
+.offer_overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.offer_title,.offer_title1{
+  padding: 60px 0 50px 60px;
+  width: 312px;
+  color: #fff;
+  font-family: 'Jost', sans-serif;
+  font-weight:600;
+  font-size: 30px;
+  line-height:43px;
+}
+.offer_title1{
+  padding: 10px 0 50px 60px;
+}
+.offer_p{
+  padding-top: 40px;
+  color: #051036;
+  font-family: 'Jost', sans-serif;
+  font-weight:500;
+  font-size: 15px;
+  line-height:18px;
+  text-align: center;
+}
+.offer_item a{
+  margin-left: 70px;
+  padding: 15px 20px;
+  background: #fff;
+  color: #051036;
+  font-family: 'Jost', sans-serif;
+  font-weight:500;
+  font-size: 15px;
+  line-height:18px;
+  text-align: center;
+  border-radius: 5px;
+}
+.offer_item a:hover{
+  background-color: #3c59d3;
+  color: #fff;
+}
+/* =====================Offer Ends Here==================== */
+/* =====================Banner Starts Here==================== */
+/* =====================Banner Ends Here==================== */
+/* =====================Banner Starts Here==================== */
+/* =====================Banner Ends Here==================== */
+/* =====================Footer Starts Here==================== */
+#footer{
+  padding: 60px 0;
+  background: #0d2857;
+}
+
+.f_contact p{
+  padding-top: 30px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height:26px;
+
+}
+.f_wrap{
+
+  display: flex;
+  justify-content: space-between;
+}
+.f_contact_wrap{
+  display: flex;
+  gap: 60px;
+}
+.f_contact a{
+  padding-top: 20px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  line-height:33px;
+}
+.f_head{
+  padding-top: 30px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height:23px;
+  padding-bottom: 10px;
+}
+.f_right_wrap{
+  display: flex;
+  gap: 200px;
+}
+.f_list li{
+  padding-top: 10px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height:30px;
+}
+/* =====================Footer Ends Here==================== */
